@@ -1,5 +1,5 @@
 # UzumakiPool
-A student database manager using serveltes
+A student database manager using servelets
 
 # Requirements
 1. Java SE 1.8 and above
