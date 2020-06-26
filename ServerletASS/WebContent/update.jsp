@@ -18,7 +18,7 @@ HI im here to update
  String pwd = "Naruhina@09";
 Connection conn; Statement stmt;
 String name=request.getParameter("name");
-String usn=request.getParameter("USN");
+String usn=request.getParameter("usn");
 int roll=Integer.parseInt(request.getParameter("roll"));
 int atten=Integer.parseInt(request.getParameter("atten"));
 try {

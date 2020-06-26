@@ -15,8 +15,8 @@ protected void service(HttpServletRequest req, HttpServletResponse resp) throws 
 	// TODO Auto-generated method stub
 	resp.setContentType("text/html");
 	PrintWriter p = resp.getWriter();
-	String name = req.getParameter("STname");
-	String usn = req.getParameter("USN");
+	String name = req.getParameter("name");
+	String usn = req.getParameter("usn");
 	int roll = Integer.parseInt(req.getParameter("roll"));
 	int atten = Integer.parseInt(req.getParameter("atten"));
 	System.out.println(name+" "+usn);
